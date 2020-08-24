@@ -1,0 +1,46 @@
+@import 'all.min.css';
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+}
+
+html
+{
+	width: 100vw;
+}
+
+body
+{
+	display: flex;
+	justify-content: center;
+	width: 100vw;
+	background-color: white;
+	overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 3px;
+}
+
+body::-webkit-scrollbar-track {
+  background: lightgray;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #ffc107;
+}
+
+.btn
+{
+	cursor: pointer;
+	outline: none;
+	border: 0px;
+	padding: 10px;
+}
+
+.input
+{
+	outline: none;
+	text-indent: 15px;
+}
+
